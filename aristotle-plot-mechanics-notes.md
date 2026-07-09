@@ -1,0 +1,49 @@
+# Aristotle, *Poetics*: Plot Mechanics
+
+*Covers: ch. 6–8, 10–12, 23, 26 (plot) • ch. 10–11 (again), 13–19, + *Rhetoric *Book 2, ch. 5, 8 (pity and fear) • *Politics *Book 8 (education through poetry; katharsis)*
+*Syllabus weeks: Feb. 23, 25 — Mar. 1, 3*
+
+## I. Ch. 6–8, 10–12 — plot as the soul of tragedy
+
+Ch. 6 gives Aristotle's famous definition of tragedy — imitation of a serious, complete action of a certain magnitude, through pity and fear effecting the proper *katharsis* of such emotions — and, more importantly for this unit, ranks **plot (*mythos*) above character, diction, thought, spectacle, and song** as the most important of tragedy's six parts. Tragedy is action, not character-portraiture; you can have tragedy without fully drawn characters, but not without a structured action.
+
+**Ch. 7–8** define what makes a plot properly unified: it must be a **whole** (beginning, middle, end, each following from what precedes by necessity or probability) of a **magnitude** you can hold in memory, and unified around **one action**, not one person — Aristotle explicitly criticizes plots that string together everything that happened to a single hero regardless of causal connection (his target is the kind of sprawling, episodic epic structure a lesser poet might mistake for unity because it follows one character).
+
+**Ch. 10–11** distinguish **simple** plots (change of fortune without reversal or recognition) from **complex** plots (change of fortune *with* reversal, *peripeteia*, and/or recognition, *anagnorisis*) — complex plots are better because they generate more of the pity/fear effect. Ch. 12 gives the formal parts (prologue, episode, exode, choral parts) — mostly technical and less argumentatively load-bearing than the surrounding chapters.
+
+## II. Ch. 13–19 — reversal, recognition, and the tragic error
+
+This is the syllabus's real center of gravity for the plot unit, read twice (ch. 10–11 revisited, then 13–19 in full).
+
+**Ch. 13 — the best kind of tragic plot and *hamartia*.** Aristotle rejects three plot-types as inferior: the wholly good man falling into misfortune (merely shocking, not pitiable/fearful — it offends rather than moves), the wicked man rising to good fortune (the least tragic thing possible), and the wholly wicked man falling (satisfies moral sense but generates neither pity nor fear, since we don't identify with him). The best plot shows a man **"not preeminently virtuous or just," whose misfortune is brought about not by vice or depravity but by some error or frailty (*hamartia*)** — a formulation that has generated more scholarly disagreement than almost any other single word in the *Poetics*: is *hamartia* a moral flaw, an intellectual mistake, an act of ignorance, or simply a plot-mechanical "error" with no ethical weight at all? Worth knowing for comps that this ambiguity is a live scholarly crux, not settled doctrine.
+
+**Ch. 14 argues the best tragic effect comes from suffering enacted between people who are, or ought to be, close** (family members, philoi) — not strangers, since harm between strangers or enemies isn't pitiable in the same way. The paradigm case (though Aristotle discusses several configurations) is someone who nearly harms, unwittingly harms, or knowingly harms a close relation — with recognition occurring either before or after the act, which produces different degrees of tragic power. Recognition occurring *after* the irreversible act (as in *Oedipus*) is treated as maximally effective.
+
+**Ch. 16 catalogues types of recognition** (by signs/tokens, by the poet's contrivance, by memory, by reasoning, and — the best kind — recognition arising from the events themselves, probable and unforced) — a genuinely technical taxonomy, useful mainly as a reference point rather than an argument to defend.
+
+**Ch. 17–19** are more practical/compositional advice (visualize the action while composing; give characters appropriate, consistent traits; keep diction and thought in service of the action) — thinner material for comps purposes than 13–14.
+
+## III. *Rhetoric* Book 2, ch. 5, 8 — the psychology of pity and fear, outside tragedy
+
+Read alongside the *Poetics* material, this gives Aristotle's independent, non-tragedy-specific analysis of the two emotions tragedy is supposed to arouse. **Fear** (ch. 5) is pain or disturbance from imagining an impending destructive or painful evil — crucially, felt about things that seem to threaten *us* or those close to us, and *not* felt about things that seem impossibly remote or certain (you don't fear what you think definitely won't happen, nor what has already definitely happened). **Pity** (ch. 8) is pain at an apparent destructive/painful evil happening to someone who doesn't deserve it, where the sufferer is enough like us that we can imagine it happening to ourselves or our own — a crucial qualifier, since pity for someone entirely unlike us, or so close to us that their suffering feels like our own actual loss rather than a witnessed evil, doesn't produce the same effect.
+
+**Why this matters for the unit:** this gives you Aristotle's actual psychological mechanics behind ch. 13's plot-preferences. The "not preeminently virtuous, falls through *hamartia*" hero works specifically *because* he's similar enough to the audience to trigger pity's likeness-condition, and his fall is close enough to plausible/deserved-adjacent to trigger fear's proximity-condition (it could happen to us) without being either impossibly remote or so purely deserved that it collapses into simple moral satisfaction.
+
+## IV. *Politics* Book 8 — education, poetry, and *katharsis* outside the *Poetics*
+
+This is Aristotle's other major discussion of *katharsis* — in a treatise on political education, not literary theory — and it's the syllabus's way of forcing you to read the concept in its only other surviving Aristotelian context. Discussing music's place in education, Aristotle distinguishes several functions music/poetry can serve — education, amusement, and **katharsis**, this last aimed specifically at those susceptible to strong emotional disturbance (pity, fear, religious ecstasy), for whom exposure to stimulating music produces a kind of relief or purgation, restoring them "as if they had found healing and purgation." He explicitly defers a fuller technical account of *katharsis* to the (non-extant, or extant-but-lost) treatise on poetry — meaning the *Poetics* passage most readers want fully explained is one Aristotle himself, elsewhere, says he hasn't yet fully explained.
+
+**Why this matters for the unit:** *Politics* 8 confirms *katharsis* is a real, medically/psychologically inflected concept for Aristotle (closer to a homeopathic purgation model, treating like with like) rather than a purely metaphorical flourish — but it also confirms the concept is audience-differentiated: not everyone needs or gets the same *katharsis* effect, since the passage specifically singles out those with a natural susceptibility to religious/emotional excess as the ones who benefit most. This complicates any reading of tragic *katharsis* in the *Poetics* as a universal effect on all spectators equally.
+
+## Comparative/throughline notes for comps
+
+- **The *hamartia* debate is probably the single most exam-relevant crux in this unit** — know the range of positions (moral flaw / intellectual error / neutral plot mechanism) and be ready to argue one, because it's exactly the kind of interpretive-crux question a comps exam favors.
+- **Set ch. 14's "harm between philoi" preference against the *Republic* 3 mimesis-and-impersonation anxiety**: Aristotle's best tragic plots stage violence within intimate bonds precisely because that's what maximizes audience identification — which means Aristotle's own aesthetic theory *depends on* exactly the kind of powerful emotional identification-through-representation that Plato worried would destabilize the soul. Aristotle doesn't deny the mechanism Plato fears; he just reframes its effect as purgative rather than corrupting.
+- **For your own research**: the pity-condition of "likeness to us" (*Rhetoric* 2.8) is worth holding against cross-dressing/disguise scenes specifically — disguise plots often work by *manipulating* the audience's sense of likeness (an audience knows more than characters on stage, creating dramatic irony that can either intensify or short-circuit pity depending on how "like us" the disguised character remains legible as being). This gives you an Aristotelian mechanism (not just a modern performativity one) for why costume/disguise scenes are aesthetically potent — they play directly with the likeness-variable pity depends on.
+- **The audience-differentiated account of *katharsis* in *Politics* 8** is a useful caution against treating any single text's effect on "the audience" as monolithic — worth applying to arguments about how *Jin Ping Mei*'s explicit content affects "the reader," since Ming/Qing commentators clearly assume different readers will respond differently (hence the whole apparatus of training a *correct* reader in the first place, per the Plutarch/Zhang Zhupo throughline).
+
+## Questions to bring to seminar / hold for comps
+
+1. Is *hamartia* best read as a moral category, an intellectual/epistemic category, or a purely structural plot device — and does the answer change the ethical stakes of the whole theory of tragedy?
+2. Does the *Rhetoric*'s pity/fear psychology actually explain ch. 13's plot preferences, or does Aristotle's practical taste for certain plots (Oedipus above all) drive the psychological theory more than the reverse?
+3. Given that *Politics* 8 treats *katharsis* as audience-differentiated (mainly benefiting those prone to emotional excess), what happens to the *Poetics*'s apparently universal claim that tragedy effects catharsis of pity and fear "of such things" for its audience generally?
