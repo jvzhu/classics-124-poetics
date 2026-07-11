@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JinPingMeiRecensionRecord",
+  "description": "One evaluation item for the Jin Ping Mei recension-attribution / anachronistic-commentary benchmark.",
+  "type": "object",
+  "required": [
+    "id",
+    "chapter",
+    "recension",
+    "source_edition",
+    "passage_excerpt",
+    "task_type",
+    "gold_label",
+    "split"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique identifier, e.g. 'jpm-ch01-p003'."
+    },
+    "chapter": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "Chapter number in the 100-chapter novel (same numbering across recensions)."
+    },
+    "recension": {
+      "type": "string",
+      "enum": ["cihua", "xiuxiang", "unspecified"],
+      "description": "Textual base of the passage: cihua (1610, Wanli-era) or xiuxiang (Chongzhen-era, illustrated)."
+    },
+    "source_edition": {
+      "type": "object",
+      "description": "Bibliographic pointer only -- do NOT store full copyrighted text here.",
+      "required": ["citation"],
+      "properties": {
+        "citation": {
+          "type": "string",
+          "description": "Full citation of the edition/translation this excerpt is drawn from."
+        },
+        "publisher": { "type": "string" },
+        "year": { "type": "integer" },
+        "translator_or_editor": { "type": "string" }
+      }
+    },
+    "passage_excerpt": {
+      "type": "string",
+      "description": "SHORT excerpt (<15 words) or a paraphrased summary of passage content. Full passages must be sourced by the annotator from a licensed copy and are NOT distributed with this dataset."
+    },
+    "commentary": {
+      "type": "object",
+      "description": "Associated commentarial note, if any.",
+      "properties": {
+        "commentator": {
+          "type": "string",
+          "enum": ["zhang_zhupo", "chongzhen_commentator", "none", "other"]
+        },
+        "commentary_recension": {
+          "type": "string",
+          "enum": ["cihua", "xiuxiang", "unspecified"],
+          "description": "Which recension this commentary tradition was actually written for."
+        },
+        "note_summary": {
+          "type": "string",
+          "description": "Paraphrased summary of the commentary's interpretive claim, not verbatim text."
+        }
+      }
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "recension_attribution",
+        "anachronism_detection",
+        "commentary_provenance"
+      ],
+      "description": "recension_attribution: identify which recension a passage is from. anachronism_detection: identify whether a given interpretive frame is being misapplied across recensions. commentary_provenance: match a commentary note to its correct source recension."
+    },
+    "prompt_template": {
+      "type": "string",
+      "description": "How this item should be phrased to a model under evaluation, with placeholders like {passage} and {commentary_note}."
+    },
+    "gold_label": {
+      "type": "string",
+      "description": "Correct answer: a recension name, 'anachronistic'/'consistent', or a commentator name, depending on task_type."
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Scholarly justification for the gold label, e.g. citing textual variants or known commentary provenance."
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "easy: recension-marker vocabulary differs plainly. hard: requires tracking an interpretive claim across a translation that merges recensions (the Roy/Zhang Zhupo case)."
+    },
+    "split": {
+      "type": "string",
+      "enum": ["train", "dev", "test"]
+    },
+    "annotator": {
+      "type": "string",
+      "description": "Who created/verified this item -- for inter-annotator agreement tracking."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-text annotator notes, e.g. ambiguity flags."
+    }
+  }
+}

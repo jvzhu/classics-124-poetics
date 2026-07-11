@@ -1,0 +1,77 @@
+[
+  {
+    "id": "jpm-ch01-example-001",
+    "chapter": 1,
+    "recension": "cihua",
+    "source_edition": {
+      "citation": "[PLACEHOLDER — replace with your actual cihua source edition citation]",
+      "publisher": "[PLACEHOLDER]",
+      "year": 1610,
+      "translator_or_editor": "[PLACEHOLDER]"
+    },
+    "passage_excerpt": "[PLACEHOLDER — paraphrase or <15-word excerpt from your own licensed copy]",
+    "commentary": {
+      "commentator": "none",
+      "commentary_recension": "unspecified",
+      "note_summary": ""
+    },
+    "task_type": "recension_attribution",
+    "prompt_template": "Given the following passage: {passage}\n\nWhich textual recension of Jin Ping Mei (cihua or xiuxiang) does this passage most likely belong to, and why?",
+    "gold_label": "cihua",
+    "rationale": "[PLACEHOLDER — e.g. presence of a narrative frame/poem later cut in the xiuxiang edition]",
+    "difficulty": "medium",
+    "split": "dev",
+    "annotator": "vjz",
+    "notes": "Example scaffold only; not a real annotated item."
+  },
+  {
+    "id": "jpm-ch01-example-002",
+    "chapter": 1,
+    "recension": "xiuxiang",
+    "source_edition": {
+      "citation": "[PLACEHOLDER — your xiuxiang source edition citation]",
+      "publisher": "[PLACEHOLDER]",
+      "year": 1633,
+      "translator_or_editor": "[PLACEHOLDER]"
+    },
+    "passage_excerpt": "[PLACEHOLDER]",
+    "commentary": {
+      "commentator": "zhang_zhupo",
+      "commentary_recension": "xiuxiang",
+      "note_summary": "[PLACEHOLDER — paraphrase of Zhang Zhupo's interpretive claim about this passage]"
+    },
+    "task_type": "commentary_provenance",
+    "prompt_template": "The following commentary note accompanies this passage: {commentary_note}\n\nWhich recension was this commentary tradition originally written for?",
+    "gold_label": "xiuxiang",
+    "rationale": "Zhang Zhupo's 1695 commentary was composed for the xiuxiang recension.",
+    "difficulty": "easy",
+    "split": "train",
+    "annotator": "vjz",
+    "notes": ""
+  },
+  {
+    "id": "jpm-ch01-example-003",
+    "chapter": 1,
+    "recension": "cihua",
+    "source_edition": {
+      "citation": "David Roy (trans.), The Plum in the Golden Vase, Princeton University Press [PLACEHOLDER — add volume/year]",
+      "publisher": "Princeton University Press",
+      "year": 1993,
+      "translator_or_editor": "David Roy"
+    },
+    "passage_excerpt": "[PLACEHOLDER — describe the passage without quoting Roy's copyrighted translation]",
+    "commentary": {
+      "commentator": "zhang_zhupo",
+      "commentary_recension": "xiuxiang",
+      "note_summary": "[PLACEHOLDER — the specific Zhang Zhupo interpretive frame Roy imports here]"
+    },
+    "task_type": "anachronism_detection",
+    "prompt_template": "This translation is based on the {source_recension} recension, but the accompanying interpretive framing is described as follows: {commentary_note}\n\nIs this interpretive framing consistent with the recension the translation is based on, or is it anachronistic?",
+    "gold_label": "anachronistic",
+    "rationale": "Roy's translation draws on the cihua (1610) recension, but imports Zhang Zhupo's interpretive frame, which was written for the xiuxiang recension -- a textual base Zhang was not commenting on.",
+    "difficulty": "hard",
+    "split": "test",
+    "annotator": "vjz",
+    "notes": "This is the flagship 'hard' case type for this benchmark -- the core finding from your comps repo."
+  }
+]
