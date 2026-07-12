@@ -1,22 +1,42 @@
 # classics-124-poetics
 
-Comprehensive exam preparation notes connecting Western classical poetics theory to Ming/Qing *Jin Ping Mei* commentarial scholarship. Organized around the syllabus for Classics 124 (G.R.F. Ferrari, UC Berkeley, Spring 2016): https://dagrs.berkeley.edu/courses/spring-2016
+Comparative poetics research repository connecting Western literary theory (via UC Berkeley Classics 124, G.R.F. Ferrari, Spring 2016) to the Ming-Qing Chinese commentarial tradition, centered on *Jin Ping Mei* (金瓶梅) and Zhang Zhupo's 1695 commentary.
 
-## Throughline argument
+Course reference: <https://dagrs.berkeley.edu/courses/spring-2016>
 
-Defenses of transgressive representation — across the Western classical tradition and Ming/Qing commentary on *Jin Ping Mei* alike — locate their justification in an external interpretive frame (mimetic theory, character ethics, rhetorical sublimity, moral-didactic commentary, gender performativity) that *produces*, rather than merely describes, the moral and gender categories it claims only to explain. The frame's apparent neutrality is the mechanism by which it does constitutive work on the body or text it reads.
+## Core argument
 
-## Core textual problem
+Defenses of transgressive representation — in Western poetics (Plato's expulsion of the poets, Aristotle's catharsis, Longinus's sublime, Sidney's *Apology*) and in the *Jin Ping Mei* commentarial tradition alike — consistently locate their justification in an external interpretive frame. That frame does not merely describe the moral and gender categories it invokes; it *produces* them. This repository traces that pattern across two traditions that rarely get read together, and treats Judith Butler's account of performativity as a shared analytic lens for both.
 
-David Roy's English translation of *Jin Ping Mei* is based on Recension A (詞話本), while Zhang Zhupo's influential commentary works from Recension B (繡像本/崇禎本). Any argument that moves between Roy's translation and Zhang's commentary has to reckon with this textual mismatch — the commentary is not glossing the text English readers encounter. Naifei Ding's *Obscene Things* is the dominant English-language reading of the novel and the necessary interlocutor for a sustained Butlerian account of cross-dressing in the text.
+## Repository contents
 
-## Files
+- **`unit-notes/`** — reading notes on the core Western poetics figures (Plato, Aristotle, Longinus, Sidney, and the neoclassical reception).
+- **`western-poetics-synthesis.md`** — cross-cutting synthesis of the Western unit, isolating the "external frame" move each figure makes.
+- **`jin-ping-mei/`** — three comparative files on the Chinese-language side: Zhang Zhupo's commentary against the Chongzhen commentator, Naifei Ding's *Obscene Things* as the dominant English-language reading, and the textual crux in David Roy's Princeton translation.
+- **`butler-gender-trouble-foundation.md`** — theoretical foundation file on performativity, used as the connective tissue between both traditions.
+- **`cross-synthesis.md`** — the full comparative argument, Western poetics ↔ Ming-Qing commentary ↔ performativity.
+- **`benchmark-design.md`** — design notes for a recension-aware LLM benchmark (see below).
+- **`scripts/pdf_metadata_extractor.py`** — utility for extracting citation metadata from PDF sources into CSL-JSON for Zotero import.
 
-- `mimesis_to_performativity.md` — four-way comparative sketch: Plato's mimesis, Aristotle's character-through-action, Longinus's emulative self-formation, and Butler's citationality, as successive theories of how representation constitutes rather than copies its object.
-- `longinus_on_the_sublime.md` — working notes on the Havell translation of *On the Sublime*, focused on the emulation/self-formation passages relevant to the comparative sketch.
-- `movement_hermeneutics_interview_note.md` — a parallel, non-literary case (Vivien Jiaqian Zhu, *Exploring Art, Knowledge and Movement in Japanese Fashion*, Eliva Press 2025) of an interpretive frame ("movement hermeneutics," the *ma* 間 concept) doing constitutive rather than descriptive work — useful as a comparative data point if the argument's generality is questioned.
+## The recension problem
 
-## Open threads / scholarly gaps
+*Jin Ping Mei* survives in two major textual traditions:
 
-- Secondary scholarship on gender performance in *Jin Ping Mei* specifically in dialogue with Butler appears to be an unclaimed gap in the existing literature — most Butler-adjacent readings of Ming-Qing fiction don't engage *Jin Ping Mei* directly, and most *Jin Ping Mei* scholarship on cross-dressing (e.g. Anna Wing Bo Tso) doesn't engage Butler directly.
-- Anastasia-Erasmia Peponi's work (*Frontiers of Pleasure*, Oxford UP 2012; forthcoming *Plato Choreographer*) and her Stanford seminar CLASSICS 364 are directly adjacent and worth situating against.
+- **Recension A (詞話本 / *cihua*, 1610)** — the version underlying David Roy's five-volume Princeton translation.
+- **Recension B (繡像本 / *xiuxiang*, illustrated edition)** — the version Zhang Zhupo actually annotated in 1695.
+
+Because Roy's translation is keyed to Recension A while Zhang Zhupo's commentary was written against Recension B, any reading that layers Zhang's interpretive apparatus directly onto Roy's English text is importing a commentarial frame onto a textual base it was never written for. This is a real and easy-to-miss error — one that current LLMs, trained on a flattened, undifferentiated mass of secondary discussion, are especially prone to reproduce uncritically.
+
+## Benchmark motivation
+
+This repository underpins a proposed recension-aware benchmark (see `benchmark-design.md`) measuring whether an LLM can:
+
+1. Correctly distinguish *cihua* vs. *xiuxiang* recensions when given a passage or a citation.
+2. Detect anachronistic importation of Zhang Zhupo's commentary onto material sourced from Roy's Recension-A translation.
+3. Correctly attribute claims to the right critical lineage (Zhang Zhupo vs. the Chongzhen commentator vs. modern Anglophone criticism such as Naifei Ding's *Obscene Things*).
+
+## Status
+
+Active research repository, maintained by Vivien Jiaqian Zhu (朱嘉倩), Ph.D. candidate, Department of East Asian Languages and Cultures, UC Berkeley. Visiting scholar, Stanford University; Fellow, University of Cambridge.
+
+ORCID: [0000-0002-1789-5272](https://orcid.org/0000-0002-1789-5272)
