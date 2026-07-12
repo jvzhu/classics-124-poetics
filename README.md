@@ -14,6 +14,7 @@ Defenses of transgressive representation — in Western poetics (Plato's expulsi
 - **`western-poetics-synthesis.md`** — cross-cutting synthesis of the Western unit, isolating the "external frame" move each figure makes.
 - **`jin-ping-mei/`** — three comparative files on the Chinese-language side: Zhang Zhupo's commentary against the Chongzhen commentator, Naifei Ding's *Obscene Things* as the dominant English-language reading, and the textual crux in David Roy's Princeton translation.
 - **`butler-gender-trouble-foundation.md`** — theoretical foundation file on performativity, used as the connective tissue between both traditions.
+- **`adjacent-scholarship/`** — related work extending the project's "external frame" thesis beyond its two main traditions (currently: Xiaofei Tian on letters and gift-giving in early medieval China).
 - **`cross-synthesis.md`** — the full comparative argument, Western poetics ↔ Ming-Qing commentary ↔ performativity.
 - **`benchmark-design.md`** — design notes for a recension-aware LLM benchmark (see below).
 - **`scripts/pdf_metadata_extractor.py`** — utility for extracting citation metadata from PDF sources into CSL-JSON for Zotero import.

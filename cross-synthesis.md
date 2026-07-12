@@ -16,6 +16,7 @@ Defenses of transgressive representation — across Western poetics (Plato throu
 | Zhang Zhupo | Sexual/financial excess in *Jin Ping Mei* | Structural parallelism, authorial moral seriousness | "Warning" (懲戒) as the novel's constituted meaning |
 | Naifei Ding | The category of obscenity itself | Discursive/critical history | "Obscenity" as a historically produced classification, not a textual given |
 | Butler | Gendered acts and identities | Regulatory discourse (medical, legal, cultural) | "Natural" sex/gender as a retroactively naturalized effect of repetition |
+| Xiaofei Tian | Gifts in early medieval Chinese epistolary exchange | The accompanying letter | A gift's meaning (favor, insult, compensation, submission) as fixed by the letter rather than intrinsic to the object |
 
 ## Why this comparison is not merely decorative
 
@@ -27,6 +28,10 @@ The temptation in comparative work of this kind is to treat the Western sequence
 ## The recension problem as a test case for the whole method
 
 The Roy/Zhang Zhupo recension mismatch (see `jin-ping-mei/roy-translation-recension-crux.md`) is the sharpest available illustration of the broader thesis: it is a concrete, textually verifiable instance of a frame (Zhang's commentary, built for the *xiuxiang* text) being layered onto a base (Roy's *cihua*-based translation) it wasn't built for — and of readers, including automated ones, treating the resulting composite as if it simply described "what the novel means," rather than recognizing it as a constructed overlay. This is why the project's proposed benchmark (`benchmark-design.md`) uses recension-detection as an operationalizable proxy for the more abstract claim about frames producing rather than describing meaning.
+
+## A non-literary control case
+
+Xiaofei Tian's account of gift letters in early medieval China (`adjacent-scholarship/tian-letters-gifts.md`) supplies a structurally parallel case from a genre with no obvious connection to literary commentary or gender theory at all: the letter accompanying a gift does not describe the gift's significance but forecloses alternative readings and installs one in their place. Its usefulness here is precisely its distance from the project's two main traditions — it is evidence that the "frame produces category" pattern is not an artifact of literary criticism or of gender theory specifically, but recurs wherever an interpretive apparatus is socially positioned to fix an object's meaning.
 
 ## Open threads for future work
 
