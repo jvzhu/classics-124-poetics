@@ -1,0 +1,13 @@
+theme: jekyll-theme-cayman
+title: "Classics 124: Comparative Poetics"
+description: "Plato, Aristotle, Longinus & Sidney in dialogue with the Jin Ping Mei commentarial tradition and Butler's performativity framework"
+show_downloads: false
+exclude:
+  - "*.ipynb"
+  - "*.py"
+  - "*.json"
+  - README-2.md
+  - README-3.md
+  - README-4.md
+  - README-5.md
+  - README-6.md
